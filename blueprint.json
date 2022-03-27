@@ -1,0 +1,15 @@
+{
+  "identifier": "aws",
+  "about": {
+    "title": "Aws",
+    "explanation": "AWS Configuration BP"
+  },
+  "provider": {
+    "type": "aws"
+  },
+  "configuration": {
+    "version": "~> 3.0",
+    "source": "hashicorp/aws",
+    "region" : "us-east-1"
+  }
+}
